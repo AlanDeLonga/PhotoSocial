@@ -1,0 +1,542 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+*/
+
+body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	background: #000000;
+	font: 13px/15px Verdana,Arial,Helvetica,sans-serif; 
+}
+img { border: none; }
+table, tr, td, tr { border-collapse: collapse; vertical-align: top; text-align: left;
+  font: 13px/15px Verdana,Arial,Helvetica,sans-serif; }
+a { color: #8D0D19;  text-decoration: none;}
+a:hover { text-decoration: underline;}
+
+/* 1A446C */
+#header { height: 70px; text-align: left; background: #000000; color: #D4E6F4; padding-left: 2px}
+#header h1 { padding: 1em; margin: 0; }
+
+/* Note: IE 5 & 6 won't understand min-height */
+#main { min-height: 860px; position: relative; background: #EEE4B9; border-style:solid;
+	border-width:0.5px; }
+.log-entries{ list-style-type: none;}
+
+
+#footer { height: 2em; padding-top: 1em; padding-bottom: 1em; text-align: center; 
+  background: #000000;  color: #D4E6F4; padding-left: 2px}
+
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000; }
+
+#main_link{
+	text-decoration:none;	
+	color: #D4E6F4;
+}
+
+/*
+.photos{
+	float: left;
+	padding: 20px;
+	padding-left: 40px;
+	padding-top: 60px;
+	text-align: center;
+}
+*/
+.photos{
+	text-align: center;
+	float: right;
+	padding: 10px;
+	min-width:310px;
+	max-width:310px;
+	min-height: 280px;
+	max-height: 280px;
+	text-align: center;
+}
+
+
+#category_nav{
+	font-size: 14px;
+	font-weight: bold;
+	border-style:solid;
+	border-width:2px;
+	margin: 0px 5px;
+	margin-left: 10px;
+	padding-top: 20px;
+	background: #EEE4B9;
+}
+
+#category_nav h2{
+	text-align: center;	
+}
+
+#category_nav ul{
+	padding-left: 20px;
+	list-style-type: none;
+}
+#profile_img_container{
+	text-align: center;
+	border-style:solid;
+	border-width:2px;
+	margin: 0px 5px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #EEE4B9;
+}
+#profile_img_container img{
+	max-height: 120px;
+	max-width: 120px;
+	padding-bottom: 10px;
+}
+
+.photo_container{
+
+	float: left;
+	padding: 20px;
+	text-align: center;
+}
+
+.up_photo_container{
+	float: left;
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.up_photo_container img{
+	max-width: 700px;
+	max-height: 920px;
+}
+
+.photo_display{
+	max-height: 200px;
+	max-width: 300px;
+}
+
+#large_photo img{
+	max-width: 700px;
+	max-height: 920px;
+}
+
+/*
+.nav_links{
+	float: left;
+	padding-right: 120px;
+}
+*/
+.nav_links ul{
+	list-style-type: none;
+}
+.nav_links li{
+	padding: 4px;
+}
+
+
+.pagination .selected {
+	font-weight: bold;
+	color: #8D0D19;
+}
+
+/*
+.pagination p{
+	float: right;
+}
+*/
+
+#container{
+	background: #D4E6F4;
+	min-height: 720px;
+}
+
+#photo_container{
+	margin: 0px 5px;
+	margin-left: 10px;
+	border-style:solid;
+	border-width:2px;
+	padding-top: 20px;
+	padding-left: 0px;
+	margin-bottom: 10px;
+	background: #EEE4B9;
+	min-height: 720px;
+}
+
+#title {
+	text-align: center;
+}
+.browse_title{
+	padding-top: 80px;
+	padding-right: 240px;	
+}
+#title h2{
+	padding-top: 10px;
+}
+
+#login{
+	text-align: center;
+}
+
+#login_box {
+	margin: 80px 220px;
+	padding: 40px;
+	
+}
+#login_box form{
+	border-style:solid;
+	border-width:2px;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	background: #D4E6F4;
+}
+
+#prev_link{
+	font-size: 16px;
+	float: left;
+	margin: 20px;
+	margin-left: 0px;
+}
+#next_link{
+	font-size: 16px;
+	float: right;
+	margin: 20px;
+}
+
+
+
+.photo_comments{
+	padding-left: 150px;
+}
+
+.photo_comments h5{
+	color: #689DC1;
+	padding-left: 210px;
+}
+
+.up_form h4{
+	text-align: center;
+}
+
+.up_form form{
+	padding-bottom: 15px;
+	padding-left: 370px;
+}
+
+.ed_form form{
+	padding: 30px;
+	padding-left: 360px;
+}
+
+.title_images a{
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	max-width: 300px;
+	max-height: 200px;
+	width:30%;
+	float: left;
+	
+}
+
+.top_pic{
+	text-align: center;
+	padding: 30px;
+	min-height: 100px;
+	min-width: 300px;
+	max-height: 1000px;
+	max-width: 600px;
+}
+
+.top_photo p{
+	text-align: center;
+}
+
+.top_photo h3{
+	padding: 20px;
+	padding-bottom: 5px;
+	margin-bottom:5px;
+}
+.top_links{
+	font-size: 14px;
+	float: right;
+}
+#top_rated_photo{
+	text-align: center;
+
+}
+
+.top_links a{
+	color: #D4E6F4;
+	padding-right: 20px;
+}
+
+.top_links a:hover{
+	color: #8D0D19;
+}
+
+#comment-form{
+	text-align: center;
+	
+}
+#comment-form form{
+	padding-left: 220px;
+	
+}
+.comment{
+	text-align: center;
+	background: #FFFFFF;
+	margin-left: 140px;
+	margin-right: 440px;
+	margin-bottom: 2em;
+}
+
+.edit_comment{
+	text-align: center;
+	background: #FFFFFF;
+	margin-left: 310px;
+	margin-right: 340px;
+	margin-bottom: 2em;
+}
+
+#flash_message{
+  	border: 1px dashed #000;
+	padding: 10px 0px;
+	margin-left: 0px !important;
+	background: #D4E6F4;
+	text-align: center;
+	font-size: 18px;
+}
+
+.prof_msg{
+	margin-top: 0px;	
+	margin-bottom: 10px;
+	background: #EEE4B9 !important;
+	border: 2px solid #000 !important;
+}
+
+.mng_msg{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background: #EEE4B9 !important;
+	border: 2px dotted #000 !important;
+}
+
+#close{
+	font-size: 12px !important;
+	clear: both;
+	float: right;
+	margin-right: 10px;
+}
+
+.comments h5{
+	text-align: center;
+	color: #689DC1;
+
+}
+
+.rating_star{
+	max-height:35px;
+}
+.rating_star_link{
+	text-decoration:none;
+}
+
+.browse_rating_star{
+	max-width: 18px;
+}
+
+.top_rating{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.img_label{
+	padding:5px;
+	font-size: 16;
+}
+
+.rating{
+	padding-left: 280px;
+}
+#back_link{
+	font-size: 16px;
+}
+#photo_nav{
+	margin-top: 10px;
+}
+
+.caption{
+	margin-bottom: 5px !important;
+	font-size: 16px;	
+	font-weight: bold;
+}
+
+#main_photo_container{	
+	background-image:url('../images/assets/sky_buildings2.jpg');
+	min-height: 420px;
+}
+
+/********** index.php ***********/
+
+.title_boxes{
+	margin-bottom: 20px;
+}
+
+.title_boxes p{
+	margin: 15px;
+}
+
+#main_photo_container h3{	
+	padding: 40px;
+}
+
+#upload_title{
+	background: #c9d0d6;	
+	border-style:dotted;
+	border-width: 1px;
+	margin-left: 45px;
+
+}
+
+#upload_title:hover{
+	background: #5b9ecb;
+}
+#upload_title h3{
+	text-align: center;
+}
+
+
+#share_title{
+	background: #c9d0d6;	
+	border-style:dotted;
+	border-width: 1px;
+}
+#share_title:hover{
+	background: #5b9ecb;
+}
+#share_title h3{
+	text-align: center;
+}
+
+#connect_title{
+	background: #c9d0d6;
+	border-style:dotted;
+	border-width: 1px;
+}
+#connect_title:hover {
+	background: #5b9ecb;
+}
+#connect_title h3{
+	text-align: center;
+}
+
+#signup_tag{
+	font-size: 18px;
+}
+#signup_plug{
+	padding-left: 60px;
+}
+#signup_plug p{
+	color: #488fbf;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.signup{
+	float: left;
+	padding-right: 20px;	
+}
+#explore{
+	padding-left: 60px;
+}
+
+#explore_title{
+	background: #c9d0d6;
+	min-height: 165px;	
+	border-style:dotted;
+	border-width: 1px;
+	margin-left: 45px;
+
+}
+
+#explore_title:hover{
+	background: #5b9ecb;
+}
+#explore_title h3{
+	text-align: center;
+}
+
+
+#explore_imgs{
+	margin-bottom: 20px;
+}
+
+.explore_img_div {
+  float: left;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #000;
+  margin: 1px;
+}
+
+.explore_img_div:hover {
+  border: 1px solid red;	
+  opacity:0.75;
+  filter:alpha(opacity=75);
+}
+
+
+/********** contact.php ***********/
+#contact_box {
+	color:#000000; 
+	font-size: 8pt; 
+	font-family: Verdana;
+}
+
+.button {background-color: rgb(128,128,128); color:#ffffff; font-size: 12pt;}
+.inputc {font-size: 10pt;}
+.style3 {font-size: 12pt}
+
+#contact_box table{
+	background: #c9d0d6;
+	padding: 10px;
+}
+
+#contact_box td{
+	padding-left: 20px;
+}
+
+
+#contact{
+	text-align: center;
+	padding-top: 0px !important;
+}
+
+.line{
+	clear: both;
+	margin-top: 20px;
+	padding: 10px;
+	padding-left: 40px;
+	width: 91%;
+}
+
+.rounded {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.rounded1 {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
